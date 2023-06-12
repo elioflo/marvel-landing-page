@@ -20,7 +20,7 @@ body {
     var(--blue-bg) 100%
   );
   background-repeat: no-repeat;
-  padding: 5vw 0 5vw 0;
+  padding: 5vw 0;
   min-height: 100vh;
 }
 
@@ -37,7 +37,7 @@ img {
   width: calc(100% - 8vw);
   margin: auto;
   border-radius: 0.25rem;
-  padding: 0.5rem;
+  padding: 1rem 0.75rem;
 }
 
 main {
@@ -58,3 +58,16 @@ main {
   max-width: 7rem;
 }
 
+.icon {
+  width: 2rem;
+}
+
+.socials {
+  text-align: center;
+}
+
+.footer-text {
+  font-size: .75rem;
+  color: #FAFAFA;
+  text-align: center;  
+}
