@@ -40,10 +40,6 @@ img {
   padding: 1rem 0.75rem;
 }
 
-main {
-  display: none;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
