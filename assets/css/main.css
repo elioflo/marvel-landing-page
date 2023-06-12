@@ -1,0 +1,60 @@
+:root {
+  --blue-bg: rgb(0, 34, 80);
+  --red-bg: rgb(148, 18, 18);
+  --main-bg-top: rgb(11, 19, 34);
+  --main-bg-bottom: rgb(29, 34, 64);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    98deg,
+    var(--red-bg) 0%,
+    var(--red-bg) 50%,
+    var(--blue-bg) 50%,
+    var(--blue-bg) 100%
+  );
+  background-repeat: no-repeat;
+  padding: 5vw 0 5vw 0;
+  min-height: 100vh;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  background: linear-gradient(
+    to bottom,
+    var(--main-bg-top) 0%,
+    var(--main-bg-bottom) 100%
+  );
+  width: calc(100% - 8vw);
+  margin: auto;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+}
+
+main {
+  display: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.marvel-logo {
+  max-width: 5rem;
+}
+
+.spiderman-logo {
+  max-width: 7rem;
+}
+
