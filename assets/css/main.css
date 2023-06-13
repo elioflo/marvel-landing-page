@@ -92,3 +92,37 @@ main {
   max-width: 400px;
   margin: auto;
 }
+
+main > img {
+  position: relative; 
+  right: -5%;
+}
+
+
+@media screen and (width > 768px) {
+  body {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    display: flex;
+    justify-content: space-around;
+    max-width: unset;
+  }
+
+  main > div {
+    width: 40%;
+  }
+  main > img {
+    width: 50%;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
