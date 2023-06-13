@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
 :root {
   --blue-bg: rgb(0, 34, 80);
   --red-bg: rgb(148, 18, 18);
@@ -22,6 +24,7 @@ body {
   background-repeat: no-repeat;
   padding: 5vw 0;
   min-height: 100vh;
+  font-family: sans-serif;
 }
 
 img {
@@ -66,4 +69,26 @@ img {
   font-size: .75rem;
   color: #FAFAFA;
   text-align: center;  
+}
+
+.title {
+  font-family: 'Creepster', cursive;
+  margin-bottom: 2rem;
+}
+
+.button {
+  margin-top: 1.5rem;
+  display: inline-block;
+  border-radius: .25rem;
+  background: linear-gradient(to bottom, rgb(234,0,0) 0%, rgb(50,0,0) 100%);
+  padding: .5rem;
+  text-transform: uppercase;
+  color: #FAFAFA;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main {
+  max-width: 400px;
+  margin: auto;
 }
